@@ -7,7 +7,6 @@
 > and the same learning method**. Only the subject-specific content changes.
 >
 > **Template last synced with the repository:** 2026-10-17
-
 >
 > **Canonical source of truth for the Galhoom Study Method:** [galhoom-study-method/study-template](https://github.com/galhoom-study-method/study-template).
 > Every study repo keeps a copy of this file. When the method changes, update **this** repo first, then sync copies.
