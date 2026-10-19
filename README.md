@@ -1,4 +1,8 @@
-# 🧭 Galhoom Study Method — Global Template
+# 🧭 Galhoom Path — Study Template (Global Blueprint)
+
+> 🛤️ **Part of [Galhoom Path](https://github.com/galhoom-path)** · Track 1 — Study (**global blueprint**)  
+> This repository belongs to the **Galhoom Path** organization. It is the shared template for every Study-track repo.  
+> → [Organization home](https://github.com/galhoom-path)
 
 This repository holds the **shared blueprint** used by every study repo in [galhoom-path](https://github.com/galhoom-path).
 
