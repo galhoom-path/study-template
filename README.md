@@ -18,7 +18,7 @@ It defines Lectures → Interview Questions → Final Project, naming rules, tut
 
 | Without a global template | With this repo |
 |:---|:---|
-| Each study repo drifts into its own rules | One official method for PHP, OOP, OOD, Laravel, … |
+| Each study repo drifts into its own rules | One official method for PHP, OOP, OOD, Design Patterns, Laravel, … |
 | Hard to remember which copy is newest | **This repo is the source of truth** |
 | New subjects start from memory | New subjects start by copying `template.md` |
 
@@ -64,9 +64,11 @@ When you change **structure, conventions, or method** — update this repo in th
 
 | Repo | Role |
 |:---|:---|
-| [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Series 1 — core PHP |
-| [php-oop](https://github.com/galhoom-path/php-oop) | Series 2 — OOP |
-| `php-ood` | Series 3 — planned |
+| [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Series 1 — core PHP · 🟢 Active |
+| [php-oop](https://github.com/galhoom-path/php-oop) | Series 2 — OOP · 🟢 Active |
+| `php-ood` | Series 3 — OOD (SOLID / GRASP) · ⬜ Planned |
+| `php-design-patterns` | Series 4 — Design Patterns · ⬜ Planned |
+| Laravel, Filament, … | Series 5+ · ⬜ Planned |
 
 Each of those keeps its **own copy** of `template.md` so the repo stays self-contained for learners and AI tutors. This repo is where the **shared method** is maintained.
 
