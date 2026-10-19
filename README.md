@@ -1,6 +1,6 @@
 # 🧭 Galhoom Study Method — Global Template
 
-This repository holds the **shared blueprint** used by every study repo in [galhoom-study-method](https://github.com/galhoom-study-method).
+This repository holds the **shared blueprint** used by every study repo in [galhoom-path](https://github.com/galhoom-path).
 
 **One file drives the method:**
 
@@ -46,12 +46,12 @@ When you change **structure, conventions, or method** — update this repo in th
 
 ## 🚀 How to create a new study repo
 
-1. Create an empty public repo under `galhoom-study-method` (for example `php-ood`).
+1. Create an empty public repo under `galhoom-path` (for example `php-ood`).
 2. Copy [`template.md`](./template.md) into the new repo root.
 3. Copy `.cursor/rules/template-sync.mdc` from Section 18 of `template.md` (or from an existing study repo).
 4. Fill the placeholders in Section 2 of `template.md` for the new subject.
 5. Paste the AI prompt from Section 17 into a new chat, attach `template.md`, and generate the scaffold.
-6. Add the new repo to the Learning Series table on the [org homepage](https://github.com/galhoom-study-method).
+6. Add the new repo to the Learning Series table on the [org homepage](https://github.com/galhoom-path).
 7. Link **Comes after** / **Leads to** to the neighboring repos — no repeated lessons.
 
 ---
@@ -60,8 +60,8 @@ When you change **structure, conventions, or method** — update this repo in th
 
 | Repo | Role |
 |:---|:---|
-| [php-fundamentals](https://github.com/galhoom-study-method/php-fundamentals) | Series 1 — core PHP |
-| [php-oop](https://github.com/galhoom-study-method/php-oop) | Series 2 — OOP |
+| [php-fundamentals](https://github.com/galhoom-path/php-fundamentals) | Series 1 — core PHP |
+| [php-oop](https://github.com/galhoom-path/php-oop) | Series 2 — OOP |
 | `php-ood` | Series 3 — planned |
 
 Each of those keeps its **own copy** of `template.md` so the repo stays self-contained for learners and AI tutors. This repo is where the **shared method** is maintained.
@@ -82,6 +82,6 @@ No lecture folders. No student practice files. Method only.
 
 ## 🛠️ Maintainer
 
-[@Galhoom22](https://github.com/Galhoom22) · Organization: [galhoom-study-method](https://github.com/galhoom-study-method)
+[@Galhoom22](https://github.com/Galhoom22) · Organization: [galhoom-path](https://github.com/galhoom-path)
 
 **📘 Read. ✍️ Write. 💬 Explain. 🏗️ Build. 🏅 Master.**
