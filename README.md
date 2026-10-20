@@ -19,7 +19,7 @@ It defines **Lectures → Interview Questions → Visual Maps → Final Project*
 ```text
 01-Lectures/              →  learn
 02-Interview-Questions/   →  explain
-03-Visual-Maps/           →  see / map the system (Mermaid in map.md)
+03-Visual-Maps/           →  see / map the system (Mermaid in map.md — must look clear on GitHub)
 04-Final-Project/         →  build
 ```
 
@@ -27,7 +27,7 @@ It defines **Lectures → Interview Questions → Visual Maps → Final Project*
 |:---|:---|
 | **Lectures** | One concept per session · analogy first · learner writes every line |
 | **Interview Questions** | Subject-mapped Q&A *(≠ org Track 4 Interview Prep)* |
-| **Visual Maps** | Flows, sequences, layers · last map = end-to-end system view |
+| **Visual Maps** | Flows, sequences, layers · GitHub-clear Mermaid · last map = end-to-end system view |
 | **Final Project** | Capstone milestones *(≠ org Track 5 practice builds)* |
 
 > **Learn → Explain → Map → Build.** A track starts only after the previous track’s Review Checklist is complete.
