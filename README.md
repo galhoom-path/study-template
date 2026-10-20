@@ -10,7 +10,7 @@ This repository holds the **shared blueprint** used by every study repo in [galh
 
 📄 [`template.md`](./template.md)
 
-It defines Lectures → Interview Questions → Final Project, naming rules, tutor/student roles, living-repo updates, series-without-overlap, and the AI prompt to generate a new subject repo.
+It defines Lectures → Interview Questions → Visual Maps → Final Project, naming rules, tutor/student roles, living-repo updates, series-without-overlap, and the AI prompt to generate a new subject repo.
 
 ---
 
@@ -34,7 +34,7 @@ Improve the method in any study repo
         │
         ▼
 2. Copy the same change into every active study repo's template.md
-   (and .cursor/rules/template-sync.mdc when Section 18 changes)
+   (and .cursor/rules/template-sync.mdc when Section 19 changes)
         │
         ▼
 3. Bump "Template last synced" date in this file to today
@@ -42,7 +42,7 @@ Improve the method in any study repo
 
 **Never** leave a study repo’s `template.md` newer than this one without pushing the change back here.
 
-When you only change **subject content** (lectures, questions, project) — do **not** touch this repo.
+When you only change **subject content** (lectures, questions, maps, project) — do **not** touch this repo.
 
 When you change **structure, conventions, or method** — update this repo in the same change.
 
@@ -52,11 +52,13 @@ When you change **structure, conventions, or method** — update this repo in th
 
 1. Create an empty public repo under `galhoom-path` (for example `php-ood`).
 2. Copy [`template.md`](./template.md) into the new repo root.
-3. Copy `.cursor/rules/template-sync.mdc` from Section 18 of `template.md` (or from an existing study repo).
+3. Copy `.cursor/rules/template-sync.mdc` from Section 19 of `template.md` (or from an existing study repo).
 4. Fill the placeholders in Section 2 of `template.md` for the new subject.
-5. Paste the AI prompt from Section 17 into a new chat, attach `template.md`, and generate the scaffold.
+5. Paste the AI prompt from Section 18 into a new chat, attach `template.md`, and generate the scaffold.
 6. Add the new repo to the Learning Series table on the [org homepage](https://github.com/galhoom-path).
 7. Link **Comes after** / **Leads to** to the neighboring repos — no repeated lessons.
+
+The scaffold creates **four tracks**: `01-Lectures/` → `02-Interview-Questions/` → `03-Visual-Maps/` → `04-Final-Project/`.
 
 ---
 
@@ -90,4 +92,4 @@ No lecture folders. No student practice files. Method only.
 
 [@Galhoom22](https://github.com/Galhoom22) · Organization: [galhoom-path](https://github.com/galhoom-path)
 
-**📘 Read. ✍️ Write. 💬 Explain. 🏗️ Build. 🏅 Master.**
+**📘 Read. ✍️ Write. 💬 Explain. 🗺️ Map. 🏗️ Build. 🏅 Master.**
