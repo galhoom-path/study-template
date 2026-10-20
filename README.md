@@ -1,7 +1,7 @@
 # 🧭 Galhoom Path — Study Template (Global Blueprint)
 
 > 🛤️ **Part of [Galhoom Path](https://github.com/galhoom-path)** · Track 1 — Study (**global blueprint**)  
-> This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep** · **Projects**). It is the shared template for every Study-track repo.  
+> This repository belongs to the **Galhoom Path** organization (**Study** · **Foundations** · **Problem Solving** · **Interview Prep** · **Projects**). It is the shared template for every Study-track repo.  
 > → [Organization home](https://github.com/galhoom-path)
 
 This repository holds the **shared blueprint** used by every study repo in [galhoom-path](https://github.com/galhoom-path).
@@ -10,7 +10,27 @@ This repository holds the **shared blueprint** used by every study repo in [galh
 
 📄 [`template.md`](./template.md)
 
-It defines Lectures → Interview Questions → Visual Maps → Final Project, naming rules, tutor/student roles, living-repo updates, series-without-overlap, and the AI prompt to generate a new subject repo.
+It defines **Lectures → Interview Questions → Visual Maps → Final Project**, naming rules, tutor/student roles, living-repo updates, series-without-overlap, and the AI prompt to generate a new subject repo.
+
+---
+
+## 🗺️ Method (four tracks, strict order)
+
+```text
+01-Lectures/              →  learn
+02-Interview-Questions/   →  explain
+03-Visual-Maps/           →  see / map the system (Mermaid in map.md)
+04-Final-Project/         →  build
+```
+
+| Track | Job |
+|:---|:---|
+| **Lectures** | One concept per session · analogy first · learner writes every line |
+| **Interview Questions** | Subject-mapped Q&A *(≠ org Track 4 Interview Prep)* |
+| **Visual Maps** | Flows, sequences, layers · last map = end-to-end system view |
+| **Final Project** | Capstone milestones *(≠ org Track 5 practice builds)* |
+
+> **Learn → Explain → Map → Build.** A track starts only after the previous track’s Review Checklist is complete.
 
 ---
 
@@ -53,7 +73,7 @@ When you change **structure, conventions, or method** — update this repo in th
 1. Create an empty public repo under `galhoom-path` (for example `php-ood`).
 2. Copy [`template.md`](./template.md) into the new repo root.
 3. Copy `.cursor/rules/template-sync.mdc` from Section 19 of `template.md` (or from an existing study repo).
-4. Fill the placeholders in Section 2 of `template.md` for the new subject.
+4. Fill the placeholders in Section 2 of `template.md` for the new subject (including `{{MAP_COUNT}}`).
 5. Paste the AI prompt from Section 18 into a new chat, attach `template.md`, and generate the scaffold.
 6. Add the new repo to the Learning Series table on the [org homepage](https://github.com/galhoom-path).
 7. Link **Comes after** / **Leads to** to the neighboring repos — no repeated lessons.
